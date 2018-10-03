@@ -6,7 +6,7 @@ unsigned long motorRunMillis = 180000;
 const int motor1Pin = 3;    // H-bridge leg 1 (pin 2, 1A)
 const int motor2Pin = 4;    // H-bridge leg 2 (pin 7, 2A)
 const int enablePin = 9;    // H-bridge enable pin
-
+// nikhil chut
 void setup() {
     Serial.begin(9600);
     pinMode(motor1Pin, OUTPUT);
